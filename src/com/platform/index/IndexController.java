@@ -93,6 +93,7 @@ public class IndexController extends Controller {
  			
  		}else {
 			renderJson("单号不正确");
+			//返回值
 		}
 		
 	}
