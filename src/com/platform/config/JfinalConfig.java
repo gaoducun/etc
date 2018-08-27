@@ -62,8 +62,8 @@ public class JfinalConfig extends JFinalConfig {
 	  		 * 配置电子影像系统的数据库连接
 	  		 */
 	  	    
-	  	    //DruidPlugin apps = new DruidPlugin("jdbc:oracle:thin:@10.254.21.7:1521:evsjbo","apps", "apps");
-	        DruidPlugin apps = new DruidPlugin("jdbc:oracle:thin:@10.254.25.48:1521:evsjboTest","apps", "apps");
+	  	    //DruidPlugin apps = new DruidPlugin("jdbc:oracle:thin:@10.254.21.7:1521:evsjbo","", "");
+	        DruidPlugin apps = new DruidPlugin("jdbc:oracle:thin:@10.254.25.48:1521:evsjboTest","", "");
 	  	    me.add(apps);
 	  	    //配置Oracle驱动
 	  	    apps.setDriverClass("oracle.jdbc.driver.OracleDriver");
